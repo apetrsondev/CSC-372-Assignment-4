@@ -1,3 +1,5 @@
+
+
 const apiForm = document.getElementById("query-form");
 
 const resultBox = document.getElementById("api-result-box");
@@ -13,6 +15,11 @@ console.log(resultBox.childNodes.length)
 apiForm.addEventListener("submit", submitApiQuery)
 
 async function submitApiQuery(event) {
+    /**
+     * Function that us ran on submit of apiForm
+     * @param {event} event for query
+     * @return {null} No return value
+     */
     event.preventDefault();
     resultBox.replaceChildren()
 
