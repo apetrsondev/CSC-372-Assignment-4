@@ -4,7 +4,7 @@ const apiForm = document.getElementById("query-form");
 
 const resultBox = document.getElementById("api-result-box");
 
-const input = document.getElementById("name_input");
+const input = document.getElementById("name-input");
 input.value = "batman";
 
 console.log(resultBox.childNodes.length)
